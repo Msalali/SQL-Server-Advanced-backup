@@ -82,7 +82,7 @@ SQL Server Info:-
 
 --------------------------------------------
 Objects Include:-
-Database_Name Date_Report Object_Name  Object_Type Total_Rows Size (MB)
+Database_Name Date_Report Object_Name  Object_Type Count_Rows Size (MB)
 ------------- ------------ ------------ ------------ ----------- ----------
 MyDB          2025-05-18   Customers     Table        100000     25.3
 MyDB          2025-05-18   Orders        Table        250000     47.9
@@ -201,7 +201,7 @@ SQL Server Info:-
 
 --------------------------------------------
 Objects Include:-
-Database_Name Date_Report Object_Name  Object_Type Total_Rows Size (MB)
+Database_Name Date_Report Object_Name  Object_Type Count_Rows Size (MB)
 ------------- ------------ ------------ ------------ ----------- ----------
 MyDB          2025-05-18   Customers     Table        100000     25.3
 MyDB          2025-05-18   Orders        Table        250000     47.9
