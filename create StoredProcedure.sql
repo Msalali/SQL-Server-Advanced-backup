@@ -40,6 +40,7 @@ TableSizes AS (
     INNER JOIN sys.partitions p ON t.object_id = p.object_id
     LEFT JOIN AllocationSize a ON p.partition_id = a.partition_id
     WHERE o.is_ms_shipped = 0
+          AND p.index_id IN (0,1)  -- 👌
     GROUP BY s.name, o.name
 ),
 
